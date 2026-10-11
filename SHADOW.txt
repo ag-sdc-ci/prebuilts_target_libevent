@@ -1,0 +1,6 @@
+shadow prebuilt repo: libevent (target)
+  upstream: external/libevent
+  api-level: 34 (local ag-build rebuild 2026-10-11, branch 34-20261011)
+  blobs: org.blisslabs.ag.libevent.apex org.blisslabs.ag.libevent.dev.apex org.blisslabs.ag.libevent.doc.apex 
+  dev-src: none
+  date: 2026-10-11

@@ -1,0 +1,16 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_libevent.a-x86_64-v2.so",
+		    "libdummy_binary_libevent.a.so",
+		    "libdummy_headers_libevent-x86_64-v2.so",
+		    "libdummy_headers_libevent.so",
+		    "libdummy_libevent_dev-x86_64-v2.so",
+		    "libdummy_libevent_dev.so",
+		    "libevent-x86_64-v2.so",
+		    "libevent.so"
+	],
+	"requireLibs": [	
+		    "libdummy-libevent.so"
+	],
+	"visible": true
+}
