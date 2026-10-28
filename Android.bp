@@ -7,8 +7,8 @@ package {
 
 prebuilt_apex {
     name: "org.blisslabs.ag.libevent",
-    apex_name: "org.blisslabs.ag.libevent",
-    source_apex_name: "org.blisslabs.ag.libevent",
+    apex_name: "libevent",
+    source_apex_name: "libevent",
     arch: {
         x86_64: {
             src: "org.blisslabs.ag.libevent.apex",
@@ -30,7 +30,7 @@ cc_library_headers {
         "//apex_available:platform",
     ],
     export_include_dirs: [
-        "dev-src/include",
+        "include",
     ],
 }
 
@@ -42,7 +42,7 @@ cc_prebuilt_library {
     host_supported: true,
     check_elf_files: false,
     export_include_dirs: [
-        "dev-src/include",
+        "include",
     ],
     prefer: true,
     apex_available: [
@@ -51,9 +51,9 @@ cc_prebuilt_library {
     ],
     min_sdk_version: "29",
     shared: {
-        srcs: ["src/lib/libevent.so"],
+        srcs: ["lib64/libevent.so"],
     },
     static: {
-        srcs: ["dev-src/lib/libevent.a"],
+        srcs: ["lib64/libevent.a"],
     },
 }
